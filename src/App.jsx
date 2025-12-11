@@ -104,15 +104,11 @@ export default function App() {
 
         {showDeleteModal && (
           <ConfirmModal
-            text={`Are you sure you want to Delete`}
-            onCancel={() => setToDelete(null)}
-            onConfirm={async () => {
-              await onDelete(toDelete.id);
-              setToDelete(null);
-            }}
+            text="Are you sure you want to Delete?"
+            onCancel={handleCancelDelete}
+            onConfirm={handleConfirmDelete}
           />
         )}
-
       </div>
     </>
   );
