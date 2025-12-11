@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState, useEffect } from 'react';
 import "./App.css";
 import EmployeeList from './components/EmployeeList';
@@ -20,7 +19,7 @@ export default function App() {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
 
   const fetchEmployees = async () => {
-    const res = await API.get('/employees');
+    const res = await API.get('/');
     setEmployees(res.data);
   };
 
@@ -43,7 +42,7 @@ export default function App() {
 
   const handleConfirmDelete = async () => {
     if (!deleteId) return;
-    await API.delete(`/employees/${deleteId}`);
+    await API.delete(`/${id}`);
     await fetchEmployees();
     setShowDeleteModal(false);
     setDeleteId(null);
@@ -53,9 +52,9 @@ export default function App() {
     const headers = { 'Content-Type': 'multipart/form-data' };
 
     if (isEdit) {
-      await API.put(`/employees/${id}`, formData, { headers });
+      await API.put(`/${id}`, formData, { headers });
     } else {
-      await API.post('/employees', formData, { headers });
+      await API.post('/', formData, { headers });
     }
 
     await fetchEmployees();
