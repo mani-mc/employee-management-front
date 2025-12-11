@@ -42,7 +42,7 @@ export default function App() {
 
   const handleConfirmDelete = async () => {
     if (!deleteId) return;
-    await API.delete(`/${id}`);
+    await API.delete(`/${deleteId}`);
     await fetchEmployees();
     setShowDeleteModal(false);
     setDeleteId(null);
@@ -104,11 +104,15 @@ export default function App() {
 
         {showDeleteModal && (
           <ConfirmModal
-            text="Are you sure you want to Delete"
-            onCancel={handleCancelDelete}
-            onConfirm={handleConfirmDelete}
+            text={`Are you sure you want to Delete`}
+            onCancel={() => setToDelete(null)}
+            onConfirm={async () => {
+              await onDelete(toDelete.id);
+              setToDelete(null);
+            }}
           />
         )}
+
       </div>
     </>
   );

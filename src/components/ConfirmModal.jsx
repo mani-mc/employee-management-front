@@ -1,6 +1,7 @@
 import { FiTrash2 } from "react-icons/fi";
 
 export default function ConfirmModal({ text, onCancel, onConfirm }) {
+
     return (
         <div className="modal-container">
             <div className="modal">

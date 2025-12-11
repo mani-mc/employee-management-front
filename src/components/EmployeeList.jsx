@@ -40,7 +40,9 @@ export default function EmployeeList({ data, onEdit, onView, onDelete }) {
                                 <td className="action-con">
                                     <button className="action-icons" onClick={() => onView(emp)}><FiEye /></button>
                                     <button className="action-icons" onClick={() => onEdit(emp)}><BiEditAlt /></button>
-                                    <button className="action-icons" onClick={() => setToDelete(emp)}><FiTrash2 /></button>
+                                    <button className="action-icons" onClick={() => setToDelete(emp)}>
+                                        <FiTrash2 />
+                                    </button>
                                 </td>
                             </tr>
                         ))}
