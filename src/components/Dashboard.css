@@ -1,0 +1,40 @@
+.dashboard-container {
+  min-width: 300px;
+  height: 100vh;
+  background-color: #fafafa;
+  border-right: 2px solid #e3e3e3;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  gap: 14px;
+  color: #888888;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dashboard-icons {
+  height: 20px;
+  width: 20px;
+}
+
+.menu-items-active {
+  display: flex;
+  align-items: center;
+  background-color: #0085ff;
+  color: #fafafa;
+  width: 220px;
+  height: 55px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  padding-left: 2.5rem;
+  margin-top: 2rem;
+  gap: 14px;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
