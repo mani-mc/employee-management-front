@@ -24,7 +24,8 @@ export default function EmployeeView({ emp, onBack }) {
 
             <div className="view-grid">
                 <div className="avatar">
-                    <img src={getAvatarUrl(emp.avatar)} alt="Img" /></div>
+                    <img src={getAvatarUrl(emp.avatar)} alt="avatar" />
+                </div>
                 <div className="employee-details">
                     <div>
                         <div className="info-item">

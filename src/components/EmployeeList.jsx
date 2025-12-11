@@ -29,7 +29,8 @@ export default function EmployeeList({ data, onEdit, onView, onDelete }) {
                         {data.map(emp => (
                             <tr key={emp.id}>
                                 <td className="name">
-                                    <img className="show-img" src={getAvatarUrl(emp.avatar)} alt="Img" /> {emp.name}</td>
+                                    <img src={getAvatarUrl(emp.avatar)} alt="Img" />
+                                    {emp.name}</td>
                                 <td>{emp.employee_id}</td>
                                 <td>{emp.department}</td>
                                 <td>{emp.designation}</td>

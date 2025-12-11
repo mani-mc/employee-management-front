@@ -70,9 +70,13 @@ export default function EmployeeForm({ employee, onCancel, onSave, onBack }) {
                             < input className='image' type="file" accept="image/*" onChange={handleFile}
                             />
                             {preview ? (
-                                <img src={preview} alt="Img" className="avatar-preview" />
+                                <img src={preview} className="avatar-preview" />
+                            ) : employee?.avatar ? (
+                                <img src={getAvatarUrl(employee.avatar)} className="avatar-preview" />
                             ) : (
-                                <BsCamera className='camera-icon' />)}
+                                <BsCamera className="camera-icon" />
+                            )}
+
                         </label>
                     </div>
                     <div className='form-inputs'>
