@@ -115,7 +115,6 @@ export default function EmployeeForm({ employee, onCancel, onSave, onBack }) {
                                 <option>Senior Developer</option>
                                 <option >Junior Developer</option>
                                 <option >Design Lead</option>
-                                <option>Design Lead</option>
                                 <option>Senior Design</option>
                             </select>
                         </div>
