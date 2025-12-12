@@ -1,8 +1,6 @@
-<div align="center">
-
 # 👨‍💼 **Employee Management Frontend**
 
-### A fast, modern, and responsive employee management UI built with React + Vite.
+### A fast, modern employee management UI built with React + Vite.
 
 <br>
 
@@ -31,26 +29,20 @@
 <br>
 
 ## 📦 **Installation**
-
-```bash
 git clone https://github.com/mani-mc/employee-management-front.git
 cd employee-management-front
 npm install
 npm run dev
+
 <br>
+
 🌐 API Configuration
 Create .env at project root:
-
-ini
-Copy code
 VITE_API_URL=https://your-backend-api.com/api
-Access in code:
-
-js
-Copy code
 const API_BASE = import.meta.env.VITE_API_URL;
+
 <br>
+
 🛠️ Build for Production
-bash
 Copy code
 npm run build
