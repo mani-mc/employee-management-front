@@ -1,16 +1,56 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 👨‍💼 **Employee Management Frontend**
 
-Currently, two official plugins are available:
+### A fast, modern, and responsive employee management UI built with React + Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## React Compiler
+## 🌈 **Badges**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 
-## Expanding the ESLint configuration
+<br><br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⭐ **Key Features**
+
+- View all employees  
+- Add new employees  
+- Edit employee details  
+- Delete employees  
+- API-based architecture  
+- Clean and modular React components  
+- Responsive design  
+- Fast Vite HMR development
+
+<br>
+
+## 📦 **Installation**
+
+```bash
+git clone https://github.com/mani-mc/employee-management-front.git
+cd employee-management-front
+npm install
+npm run dev
+<br>
+🌐 API Configuration
+Create .env at project root:
+
+ini
+Copy code
+VITE_API_URL=https://your-backend-api.com/api
+Access in code:
+
+js
+Copy code
+const API_BASE = import.meta.env.VITE_API_URL;
+<br>
+🛠️ Build for Production
+bash
+Copy code
+npm run build
