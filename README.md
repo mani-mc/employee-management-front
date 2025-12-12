@@ -1,5 +1,4 @@
-# 💻 Employee Management System Frontend
-
+# 💻 Employee Management  (Frontend)
 A clean and high-performance **Employee Management** user interface designed to interact with the corresponding backend API. Built for a fast development experience and seamless deployment.
 
 ## 🚀 Tech Stack
