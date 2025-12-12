@@ -14,7 +14,7 @@ A clean, responsive **Employee Management** frontend built with **React + Vite**
 
 ## Demo
 Live preview: **https://employee-management-front-mu.vercel.app/**  
-(If the link is not active, run the app locally with the commands below.)
+
 
 ---
 
