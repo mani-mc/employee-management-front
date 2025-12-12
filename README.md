@@ -22,9 +22,9 @@ Live preview: **https://employee-management-front-mu.vercel.app/**
 
 - **Framework:** React (Vite)
 - **Bundler:** Vite
-- **Styling:** CSS (project contains plain CSS files; you can replace with Tailwind/CSS-in-JS)
-- **Linting:** ESLint (project contains `eslint.config.js`)
-- **Hosting:** Vercel (example link included)
+- **Styling:** CSS 
+- **Linting:** ESLint 
+- **Hosting:** Vercel 
 - **Other:** Git, Node.js, npm
 
 ---
@@ -38,8 +38,5 @@ Live preview: **https://employee-management-front-mu.vercel.app/**
 - Fast developer experience with HMR (Vite)
 
 ---
-
-## Folder structure
-
-> Snapshot of the repo — trimmed to the important bits. Keep this updated as you add/remove files.
+ 
 
