@@ -1,44 +1,45 @@
-# 👨‍💼 **Employee Management Frontend**
+# Employee Management — Frontend
 
-### A fast, modern employee management UI built with React + Vite.
+<!-- Title / One-liner -->
+A clean, responsive **Employee Management** frontend built with **React + Vite**. Lightweight, fast dev setup and production-ready build pipeline — ready to connect to your existing backend.
 
-<br>
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
-<br><br>
+<!-- Badges -->
+[![Repo size](https://img.shields.io/github/repo-size/mani-mc/employee-management-front)](https://github.com/mani-mc/employee-management-front)
+[![Languages](https://img.shields.io/github/languages/top/mani-mc/employee-management-front)](https://github.com/mani-mc/employee-management-front)
+[![Last commit](https://img.shields.io/github/last-commit/mani-mc/employee-management-front)](https://github.com/mani-mc/employee-management-front/commits/main)
+[![Open in Vercel](https://img.shields.io/badge/deploy-vercel-000000)](https://employee-management-front-mu.vercel.app/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-## ⭐ **Key Features**
+---
 
-- View all employees  
-- Add new employees  
-- Edit employee details  
-- Delete employees  
-- API-based architecture  
-- Clean and modular React components  
-- Responsive design  
-- Fast Vite HMR development
+## Demo
+Live preview: **https://employee-management-front-mu.vercel.app/**  
+(If the link is not active, run the app locally with the commands below.)
 
-<br>
+---
 
-## 📦 **Installation**
-git clone https://github.com/mani-mc/employee-management-front.git
-cd employee-management-front
-npm install
-npm run dev
+## Tech stack & tools
 
-<br>
+- **Framework:** React (Vite)
+- **Bundler:** Vite
+- **Styling:** CSS (project contains plain CSS files; you can replace with Tailwind/CSS-in-JS)
+- **Linting:** ESLint (project contains `eslint.config.js`)
+- **Hosting:** Vercel (example link included)
+- **Other:** Git, Node.js, npm
 
-🌐 API Configuration
-Create .env at project root:
-VITE_API_URL=https://your-backend-api.com/api
-const API_BASE = import.meta.env.VITE_API_URL;
+---
 
-<br>
+## Key features
 
-🛠️ Build for Production
-Copy code
-npm run build
+- Employee list with CRUD operations (connects to backend API)
+- Responsive layout for desktop & mobile
+- Client-side validation and error handling
+- Environment-configured API URL (`.env.production` present)
+- Fast developer experience with HMR (Vite)
+
+---
+
+## Folder structure
+
+> Snapshot of the repo — trimmed to the important bits. Keep this updated as you add/remove files.
+
